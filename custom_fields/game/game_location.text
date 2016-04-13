@@ -1,7 +1,7 @@
 {
     "label": "Location",
     "instructions": "",
-    "order": 3,
+    "order": 2,
     "show_fmt": "n",
     "fmt": "none",
     "content_type": "all",
