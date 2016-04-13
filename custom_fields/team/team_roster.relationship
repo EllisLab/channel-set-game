@@ -1,0 +1,10 @@
+{
+    "label": "Roster",
+    "instructions": "",
+    "order": 4,
+    "settings": {
+        "channels": [
+            "Player"
+        ]
+    }
+}

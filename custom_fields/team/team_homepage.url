@@ -1,0 +1,12 @@
+{
+    "label": "Homepage",
+    "instructions": "",
+    "order": 5,
+    "settings": {
+        "url_scheme_placeholder": "http:\/\/",
+        "allowed_url_schemes": [
+            "http:\/\/",
+            "https:\/\/"
+        ]
+    }
+}

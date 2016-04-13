@@ -1,0 +1,13 @@
+{
+    "label": "Biography",
+    "instructions": "",
+    "order": 5,
+    "show_fmt": "n",
+    "fmt": "none",
+    "ta_rows": 4,
+    "settings": {
+        "field_show_smileys": "n",
+        "field_show_file_selector": "n",
+        "field_show_formatting_btns": "n"
+    }
+}

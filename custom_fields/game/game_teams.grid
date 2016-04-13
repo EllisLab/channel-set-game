@@ -1,0 +1,43 @@
+{
+    "label": "Teams",
+    "instructions": "",
+    "order": 3,
+    "columns": [
+        {
+            "type": "relationship",
+            "label": "Team",
+            "name": "team",
+            "instructions": "",
+            "required": "n",
+            "search": "n",
+            "settings": {
+                "channels": [
+                    "Team"
+                ],
+                "expired": 0,
+                "future": 0,
+                "categories": [],
+                "authors": [],
+                "statuses": [],
+                "limit": "100",
+                "order_field": "title",
+                "order_dir": "asc",
+                "allow_multiple": 0,
+                "field_required": "n"
+            }
+        },
+        {
+            "type": "radio",
+            "label": "Location",
+            "name": "location",
+            "instructions": "",
+            "required": "n",
+            "search": "n",
+            "settings": {
+                "field_fmt": "none",
+                "field_list_items": "Home\nAway",
+                "field_required": "n"
+            }
+        }
+    ]
+}

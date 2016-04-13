@@ -1,0 +1,40 @@
+{
+    "channels": [
+        {
+            "channel_title": "Game",
+            "status_group": "Default",
+            "field_group": "game",
+            "cat_groups": []
+        },
+        {
+            "channel_title": "Team",
+            "title_field_label": "Team Name",
+            "status_group": "Default",
+            "field_group": "team",
+            "cat_groups": []
+        },
+        {
+            "channel_title": "Player",
+            "title_field_label": "Player Name",
+            "status_group": "Default",
+            "field_group": "player",
+            "cat_groups": []
+        }
+    ],
+    "status_groups": [
+        {
+            "name": "Default",
+            "statuses": []
+        },
+        {
+            "name": "Default",
+            "statuses": []
+        },
+        {
+            "name": "Default",
+            "statuses": []
+        }
+    ],
+    "category_groups": [],
+    "upload_destinations": []
+}

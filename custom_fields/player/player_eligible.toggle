@@ -1,0 +1,8 @@
+{
+    "label": "Eligible?",
+    "instructions": "Is this player eligible to play or are they injured or otherwise ineligible?",
+    "order": 4,
+    "settings": {
+        "field_default_value": "1"
+    }
+}
