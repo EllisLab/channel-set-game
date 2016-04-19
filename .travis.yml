@@ -15,19 +15,20 @@ script:
   - vendor/bin/jsonlint custom_fields/**/*
 
 before_deploy:
-  - rm -rf ./.*
-  - rm -rf composer.*
-  - rm -rf README.md
+  - rm -rf ./.editorconfig
+  - rm -rf ./.gitignore
+  - rm -rf ./.travis.yml
+  - rm -rf ./vendor/
+  - rm -rf ./composer.*
+  - rm -rf ./README.md
   - zip -r 'game' .
 
 deploy:
   provider: releases
   api_key:
-    secure: mksWi0izhEWhU3ANoUxPQ0joBy4yCwiu7Y17HjvxxVYDuVXM/73ie1zQ34AFCtts4FxNmwrT1tAxVksDa41k1a6x3paxfcT6PySletw4RB3T3OmxNO4HYsvmtSL4DVWw7ru5btlFTVMB+cClqAP3u+T+14QPOrYfYJWqz5ckf+w=
+    secure: nBhMcBwHJ2wG8prrR+GaGJO0sfhNRbJQ6v+C8fSZuASYIQO0wgoywQOOkt5EmoQiMPXk9gF7dc82RxSBLivu+bRAUyR53CSyVXV8dNltJd9987SPQZhV1TChLupOaxfltUMmfUGI6Otq64XBJikNqZKpPUKpfOyGHialwQkObj2r3OH3jdw6fIWFbNDXAiLrRwlhzzMZxTcTXqbBcg4MSe+TqvXRm0Xb6ZREI+mGpMlt8ZAvL2Hm92YJH7imTFcEjDG2s1obJwIY1/f8C/RJuPG9kUFD0rXn7iuQzyqHSdJUavF4+Jk07edOoZnYQKS5jIEYxfenLdXpMrzsYzHnTFINpHNQ0b1EtUdkxwwIGHp+ErPutfyijd4SRox47oz64hYvrcef/YVfhrrC0i58BxzENJUbFaiJ7oPgrPfZ9SjBJaGVTTOXeG0XbjSJab3YvVTDTvNxI5ZUlkINnjxjK8u++uWaMd62f29AafrM/K/2HE0eB4asbr/xLEaZL1T/MypilQ8ZVsnkM1Qm/Igt/PacVCVz+UR+NRyHdsBYOwAwze+IhvUQt/upNLal0vkRwRygXqYWAdzVLsxeDrNF8Z5yh7PYpF18G54TuY9q+6kWc8ooHZt8iGQh/vT6Xuhd8xnwpX4mWUPEs5En8wLotQkPmx+vl737Kvu0OKvdHBA=
   file: game.zip
-  skip_cleanup: true
   on:
-    repo: EllisLab/channel-set-game
     php: 7.0
     tags: true
-    condition: $TRAVIS_PULL_REQUEST = false
+    repo: EllisLab/channel-set-game
