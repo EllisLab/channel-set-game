@@ -25,7 +25,7 @@ The Game Channel Set comes with three Channels and custom fields to get you up a
 * {player_position}: a Text field for the player’s field position
 * {player_weight}: Text field for the player’s weight
 
-###Team Channel
+### Team Channel
 
 ### Custom Fields
 
