@@ -8,7 +8,7 @@ The Game Channel Set comes with three Channels and custom fields to get you up a
 
 ### Custom Fields
 
-* game_location}: a Text field for the location of the game
+* {game_location}: a Text field for the location of the game
 * {game_start_time}: a Date field for the official start time of the game
 * {game_teams}: a Grid field to select which teams are playing in the game  
   * :team - a Relationship to the Teams Channel  
